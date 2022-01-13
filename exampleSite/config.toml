@@ -34,6 +34,7 @@ link = "plugins/slick/slick.min.js"
 link = "plugins/headroom/headroom.js"
 [[params.plugins.js]]
 link = "plugins/instafeed/instafeed.min.js"
+
 [[params.plugins.js]]
 link = "plugins/masonry/masonry.js"
 [[params.plugins.js]]
@@ -125,3 +126,12 @@ link = "#"
 [[params.social]]
 icon = "ti-github"
 link = "#"
+
+# At the bottom of your `config.yaml` is a Module section:
+module:
+  imports:
+    # Any Hugo modules you installed will appear here.
+  
+    # Add the Wowchemy CMS module below, if it has not already been added:
+    - path: github.com/wowchemy/wowchemy-hugo-themes/wowchemy-cms
+    - path: github.com/wowchemy/wowchemy-hugo-themes/wowchemy
